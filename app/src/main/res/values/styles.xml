@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Light theme. -->
+    <style name="LightTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#8ec6c5</item>
+        <item name="colorPrimaryDark">#6983aa</item>
+        <item name="colorAccent">#ffd31d</item>
+
+        <item name="customBackgroundColor">#ededed</item>
+        <item name="customCardBackgroundColor">#fff</item>
+        <item name="customDarkTextColor">#1a1a1a</item>
+        <item name="customLightTextColor">#636363</item>
+        <item name="customToolbarColor">#8ec6c5</item>
+        <item name="customButtonColor">#ffd31d</item>
+
+        <item name="customBackButton">@drawable/baseline_chevron_left_black_48</item>
+        <item name="customSettingsButton">@drawable/twotone_settings_black_18</item>
+        <item name="customDeleteButton">@drawable/twotone_cancel_black_36</item>
+
+        <!--        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>-->
+    </style>
+
+
+    <!-- Dark theme. -->
+    <style name="DarkTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">#1f4068</item>
+        <item name="colorPrimaryDark">#162447</item>
+        <item name="colorAccent">#fcbf1e</item>
+
+        <item name="customBackgroundColor">#000</item>
+        <item name="customCardBackgroundColor">#363636</item>
+        <item name="customDarkTextColor">#fff</item>
+        <item name="customLightTextColor">#a8a8a8</item>
+        <item name="customToolbarColor">#1f4068</item>
+        <item name="customButtonColor">#cf7500</item>
+
+        <item name="customBackButton">@drawable/baseline_chevron_left_white_48</item>
+        <item name="customSettingsButton">@drawable/twotone_settings_white_18</item>
+        <item name="customDeleteButton">@drawable/twotone_cancel_white_36</item>
+
+        <!--        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>-->
+    </style>
+
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+</resources>

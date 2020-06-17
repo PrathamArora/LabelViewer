@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card="http://schemas.android.com/tools"
+    android:id="@+id/cardSingleLabel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="5dp"
+    android:clickable="true"
+    android:elevation="1dp"
+    android:focusable="true"
+    app:cardBackgroundColor="?customCardBackgroundColor"
+    app:cardElevation="1dp"
+    card:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            card:ignore="UseCompoundDrawables">
+
+            <TextView
+                android:id="@+id/tvControlID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:text="@string/control_id"
+                android:textColor="?customDarkTextColor" />
+
+            <ImageView
+                android:id="@+id/imgCancel"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="end"
+                android:contentDescription="@string/cancel_button"
+                android:src="?customDeleteButton" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvControlText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/control_text"
+            android:textColor="?customLightTextColor" />
+
+        <TextView
+            android:id="@+id/tvLanguageCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/language_code"
+            android:textColor="?customLightTextColor" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">LabelViewer</string>
+    <string name="loading_labels">Loading Labels</string>
+    <string name="please_wait">Please Wait…</string>
+    <string name="control_id">control id</string>
+    <string name="cancel_button">Cancel Button</string>
+    <string name="control_text">control text</string>
+    <string name="language_code">Language Code</string>
+    <string name="controlguid">ControlGuId</string>
+    <string name="controlid">ControlId</string>
+    <string name="controlplaceholder">ControlPlaceHolder</string>
+    <string name="controltext">ControlText</string>
+    <string name="controltitle">ControlTitle</string>
+    <string name="errormessage">ErrorMessage</string>
+    <string name="languagecode">LanguageCode</string>
+    <string name="lastupdated">LastUpdated</string>
+    <string name="moduleguid">ModuleGuId</string>
+    <string name="settings">Settings</string>
+    <string name="light_theme">Light Theme</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="system_based">System based</string>
+    <string name="done">Done</string>
+    <string name="back_button">back button</string>
+    <string name="home_screen">Home Screen</string>
+    <string name="all_labels">All Labels</string>
+    <string name="settings_button">settings button</string>
+    <string name="selected_label">Selected Label</string>
+    <string name="settingsDescription">Settings</string>
+</resources>

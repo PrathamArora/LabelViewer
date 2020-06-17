@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="customBackgroundColor" format="color" />
+    <attr name="customDarkTextColor" format="color" />
+    <attr name="customLightTextColor" format="color" />
+    <attr name="customCardBackgroundColor" format="color" />
+    <attr name="customToolbarColor" format="color" />
+    <attr name="customButtonColor" format="color" />
+
+    <attr name="customBackButton" format="reference" />
+    <attr name="customSettingsButton" format="reference" />
+    <attr name="customDeleteButton" format="reference" />
+</resources>
